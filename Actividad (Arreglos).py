@@ -1,0 +1,13 @@
+print("Lista:")
+a=[34, 56, 23, 56]
+print(a)
+ag=int(input("Agrega el siguiente valor: "))
+a.append(ag)
+print("Nueva lista:")
+print(a)
+print("Lista ordenada ascendente:")
+a.sort()
+print(a)
+print("Lista ordenada descendente:")
+a.sort()
+print(a)
